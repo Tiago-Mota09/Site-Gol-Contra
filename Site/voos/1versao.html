@@ -1,0 +1,208 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Gol Contra versão 1</title>
+		<style>
+		div {border : 1px ;}
+			#cabecalho{
+				background-image:url(image/perigotarja.png);
+				background-repeat:no-repeat;
+				height : 220px;
+				margin: px;
+				border: 1px;
+				
+			}
+			#menu{
+			}
+		
+			#menu ul{
+				margin: 0px;
+				background-color: #FFC012;
+				list-style: none;
+				text-align: right;
+				width: 982px;
+			}
+			
+			#menu ul li {
+				display: inline;
+			
+			}
+			
+			#menu ul li a {
+				padding: 5px 15px;
+				display: inline-block;
+				color: black;
+				text-decoration: none;
+				font-size:18;
+				
+			}
+			
+			#menu ul li a:hover{
+				color: #1E90FF;
+				
+			}
+			
+			#conteudo{ 
+				overflow: auto;
+				background-color : #1E90FF ;
+				height : 486px;
+				width : 1022px;
+				float : left ;
+				border: 1px solid;
+			}
+			
+			#conteudo h1 { position: relative;
+			padding: 10px;
+			font-family:tahoma,arial,verdana;
+			}
+			
+			#buscar {
+				font-family: harlow;
+				font-size: 18px;
+				width: 100px;
+				margin: 1.5em;
+				}
+			
+			#lugar{ 
+				border:1px;
+				padding: 10px 10px;
+				font-family: harlow;
+				font-size: 18px;
+			}
+			#lugar h3{
+				font-family: harlow;
+			}
+			
+			
+			
+			table.itensglobal {
+			width:1000px;
+			}
+			table.itensglobal td {
+			width: 33%;
+			height: 410px;
+			border: #000 2px solid;
+			text-align: center;
+			}
+			span.textoroda{font-family:calibri;sans sarif; font-size:20px; color:#000000; font-weight:bold}
+			span.preco {font-family:calibri;sans sarif; font-size:25px; color:#Ff0000;}
+			
+			#rodape{
+				background-image:url(image/perigorodape.png);
+				height : 40px;
+				width: 1022px;
+				clear : both;
+				position: relative;
+				top: 16px;
+			}
+			
+			#faleConoscoimg {
+				border : 0px;
+				position : relative;
+				left : -4px;
+				top: 5px;
+				float: right;
+				font-family : calibri;sans sarif;
+				font-size : 18px;
+				background: rgba(0, 0, 0, 0.0);
+			}
+			
+			#principal {
+				width : 1024px;
+				margin : 0px auto;
+			}
+			
+			body { 
+			margin : 1px ;
+			background:url(image/cemiterio.jpg);
+			background-attachment:fixed;
+			background-size:100%;
+			background-repeat:no-repeat;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div id="principal">
+			<div id="cabecalho">
+				<a href="1versao.html">
+				<img src="image/logo.png"alt="Logo Topo 
+				Tag"/>
+				</a>
+				
+			</div>
+			
+			<div align="center" id= "menu">
+				<ul>
+					<li><a href="../home_page/home_page_lateral_esquerda.html">Home Page</a></li>
+					<li><a href="../cruzeiros/index1.html">Cruzeiros</a></li>
+					<li><a href="../hospedagens/index.html">Hospedagem</a></li>
+					<li><a href="">Pacotes</a></li>
+					<li><a href="">Voos e Passagens</a></li>
+					<li><a href="../home_page/fale_conosco.html">Fale Conosco</a></li>
+				</ul>			
+			</div>
+			
+			<div id="conteudo">
+				<h1>Piores Passagens com preços imperdíveis</h1>
+				<form name="passagem"
+				method="poster" accept-charset="UTF-8">
+				
+				<div id="lugar">
+				Somente ida<input id="somenteida" type="radio" name="voo"></input>
+				Ida e volta<input id="idaevolta" type="radio" name="voo"></input>
+				
+				<h3>Origem e Destino</h3>
+				<input id="lugar" required="required" type="text" placeholder="De onde vai sair ?"></input>
+				<input id="lugar" required="required" type="text" placeholder="Para onde vai ?"></input>
+				<input id="lugar" required="required" type="text"placeholder="Selecione as datas"></input>
+				</div>
+				
+				<div>
+					<button id="buscar" type="submit">Buscar</button>
+				<div>
+				
+		<table cellspacing="5px" class="itensglobal">
+			<br
+			<tr>
+				<td><a href = "voos.html"><img src="image/chernobyl.jpg" width="220" height="200"/></a>
+				<br /><span class="textoroda">Chernobyl</span>
+				<br /><br /><span class="preco">R$ 80,00</span>
+				</td>
+				
+				<td><a href = "voos.html"><img src="image/favela.jpg" width="220" height="200"/></a>
+				<br /><span class="textoroda">Favela</span>
+				<br /><br /><span class="preco">R$ 20,00</span>
+				</td>
+				
+				<td><a href = "voos.html"><img src="image/casa.jpg" width="220" height="200"/></a>
+				<br /><span class="textoroda">Casarão Abandonado</span>
+				<br /><br /><span class="preco">R$ 40,00</span>
+				</td>
+				
+				<td><a href = "voos.html"><img src="image/cruzeiro.jpg" width="220" height="200"/></a>
+				<br /><span class="textoroda">Cruzeiro abandonado</span>
+				<br /><br /><span class="preco">R$ 15,00</span>
+				</td>
+			</tr>
+			</br>
+		
+		</table>
+
+			</div>
+			<div id="rodape">
+			<span>
+					<button id="faleConoscoimg">
+						<a href="../home_page/fale_conosco.html"> 
+						<font color="white">Fale conosco
+						<img src="image/faleconosco.png" height="25"></font> </a>
+					</button>
+				</span>
+				<img src="image/instagram.png" height="37" align="right">
+				<img src="image/whatsapp.png" height="37" align="right">
+
+				<img src="image/logo_preta.png" height="37" align="left">
+			</div>			
+		</div>
+	</body>
+</html>

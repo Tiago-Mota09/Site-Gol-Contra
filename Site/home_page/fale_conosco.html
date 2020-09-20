@@ -1,0 +1,219 @@
+<html>
+	<head>
+		<title>Fale conosco</title>
+		<style>
+			div {
+				border: 1px solid black;
+			}
+			
+			#parteSuperior {
+				background-color: black;
+				height: 10px;
+			}
+			
+			#faleConcosco {
+				background: url(img/perigo.png);
+				height: 120px;
+			}
+			
+			#conteudo {
+				background-color: #1E90FF;;
+				height: 540;
+				text-align: center;
+			}
+							
+			#fale {
+				text-align: center;
+				position: relative;
+				top: -2px;
+				margin: 0px;
+				font-size: 18px;
+				font-family: Harlow Solid;
+				font-size: 25px;
+				color: white;
+			}
+				
+			#principal {
+				width: 1024px;
+				margin: 0px auto;					
+			}
+				
+			body {
+				margin: 0px;
+				background: url(img/fundo.jpg);
+				background-size : cover;
+			}	
+				
+			#asterisco {
+				color: red;
+			}		
+				
+			#rodape {
+				background: url(img/perigo_rodape.png);
+				height: 40px;
+			}
+				
+			#logo {
+				position: absolute; 
+				top: 9px;
+				width: 145px;
+				height: 127px;
+			}
+				
+			#nome {
+				position: relative; 
+				left: -59px;					
+			}
+				
+			#email {
+				position: relative; 
+				left: -59px;					
+			}
+				
+			#duvida {
+				position: relative; 
+				left: -19px;					
+			}
+				
+			#campos {
+				position: relative; 
+				left: -25px;
+				font-family: Ebrima;
+				font-size: 15px;
+				
+			}
+				
+			#sim {
+				position: relative; 
+				left: 70px;				
+			}
+				
+			#nao {
+				position: relative; 
+				left: 18px;					
+			}
+				
+			#logo_rodape {
+				position: relative;
+				top: -9px;
+				width: 55px;
+				height: 58px;
+			}
+				
+			#atendente {
+				position: relative;
+				top: -90px;
+				left: 660px;
+				width: 55px;
+				height: 55px;				
+			}
+			
+			#instagram_rodape {
+					clear: both;
+					position: relative;
+					top: -19px;
+					left: 895px;
+					border: 0px;
+					background: rgba(0, 0, 0, 0.0);
+			}
+			
+			#logo_insta {
+				height: 39px;
+			}
+			
+			#whatsapp_rodape {
+				position: relative;
+				top: -19px;
+				left: 785px;
+				border: 0px;
+				background: rgba(0, 0, 0, 0.0);
+			}
+			
+			#logo_whats {
+				height: 39px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="principal">
+			<div id="parteSuperior">
+			</div>
+			
+			<div id="faleConcosco">
+				<span id="fale">
+					<h1>Fale conosco</h1>
+				</span>
+					<a href="home_page_lateral_esquerda.html">
+					<img src="img/logo2.png" id="logo"> </a>
+					<img src="img/fale_conosco.bmp" id="atendente"> 
+				
+			</div>
+					
+			<div id="conteudo">
+				
+				<span id="campos">
+					<h5><b>Os campos com <span id="asterisco">*</span> são obrigatórios</b></h5>
+				</span>
+				
+				<form action="sucesso.html" method="post">
+				
+				<span id="nome">
+					<lable>Nome:<span id="asterisco">*</span></lable>  
+				</span>
+				
+				<br>
+				
+				<input type="text" name="nome" placeholder="Nome completo" required>
+			
+				<br>
+				
+				<span id="email">
+					<lable>Email:<span id="asterisco">*</span></lable>
+				</span>
+				
+				<br>	
+				
+				<input type="email" name="email" placeholder="Digite seu email" required>
+				
+				<br>
+			
+				<span id="duvida">
+					<lable>Qual a sua dúvida?<span id="asterisco">*</span></lable>
+				</span>
+
+				<br>	
+				
+				<textarea id="msg" required></textarea> 
+			
+				<br><br>
+			
+				<lable>Deseja receber novidades por email?</lable> <br>
+				<span id="sim">
+					<input type="radio" name="radio1" value="1" checked> Sim, eu autorizo que me enviem novidades por email.<br>
+				</span>
+				
+				<span id="nao">
+					<input type="radio" name="radio1" value="2"> Não, eu não quero receber novidades.
+				</span>	
+				
+				<br>
+			
+				<input type="submit" value="enviar" name="submit">
+			</div>	
+			
+			<div id="rodape">
+				<img src="img/logo_preta.png" id="logo_rodape">
+				
+				<button id="instagram_rodape">
+						<a href="" target="_blank"> 
+							<img src="img/instagram.bmp" id="logo_insta"> </a>
+				</button>
+				
+				<button id="whatsapp_rodape">
+						<a href="" target="_blank"> 
+							<img src="img/whatsapp.bmp" id="logo_whats"> </a>
+				</button>
+			</div>
+		</div>	
+	</body>
+</html>

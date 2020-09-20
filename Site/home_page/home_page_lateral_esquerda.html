@@ -1,0 +1,382 @@
+<html>
+	<head>
+		<title>Gol Contra</title>
+		<style>
+			div {
+				border: 1px solid black;
+			}
+		
+			#parteSuperior {
+				background-color: black;
+				height: 10px;
+			}
+			
+			#cabecalho {
+				height: 120px;
+				background: url(img/perigo.png);
+			}
+			
+			#paginas_lateralEsquerda {
+				background-color: #808080;
+				height: 540px;
+				width: 180px;
+				text-align: right;
+				float: left;
+			}
+			
+			#conteudo {
+				background-color: #1E90FF;
+				height:540px;
+				width: 840px;
+				color: white;
+				font-family: calibri;
+				font-size: 15px;
+				text-align: center;
+				float: right;
+			}
+			
+			.titulo {
+				font-size: 20px;
+			}
+			
+			#rodape {
+				height: 40px;
+				background: url(img/perigo_rodape.png);
+				clear: both;
+			}	
+			
+			#principal {
+				width: 1024px;
+				margin: 0px auto;
+			}
+			
+			body {
+				margin: 0px;
+				background: url(img/fundo.jpg);
+				background-size: cover;
+			}
+			
+			#nomePagina {
+				text-align:center;
+				margin: 0px ;
+				font-family: verdana;
+				font-size: 25px;
+				color: white;
+			}
+			
+			#logo {
+				position: absolute; 
+				top: 9px;
+				width: 145px;
+				height: 127px;
+			}
+			
+			#logo_rodape {
+				position: relative;
+				top: -9px;
+				width: 55px;
+				height: 58px;
+			}
+			
+			#logo_fale {
+				height: 21px;
+				width: 21px;
+			}
+			
+			#faleConosco_ {
+				border: 0px;
+				position: relative;
+				left: 0px;
+				font-family: Harlow Solid;
+				font-size: 20px;
+				color: black;
+				background: rgba(0, 0, 0, 0.0);
+			}
+			
+			#dicas_ {
+				border: 0px;
+				position: relative;
+				left: 0px;
+				font-family: Harlow Solid;
+				font-size: 20px;
+				color: black;
+				background: rgba(0, 0, 0, 0.0);
+			}
+			
+			#logo_dicas {
+				height: 21px;
+				width: 21px;
+			}
+			
+			#cruzeiros_ {
+				border: 0px;
+				position: relative;
+				left: 0px;
+				font-family: Harlow Solid;
+				font-size : 20px;
+				color: black;
+				background: rgba(0, 0, 0, 0.0);
+			}
+			
+			#logo_cruzeiros {
+				height: 21px;
+				width: 21px;
+			}
+			
+			#pacotes_ {
+				border: 0px;
+				position: relative;
+				left: 0px;
+				widht: 158px;
+				font-family: Harlow Solid;
+				font-size: 20px;
+				color: black;
+				background: rgba(0, 0, 0, 0.0);
+			}
+			
+			#logo_pacotes {
+				height: 21px;
+				width: 21px;
+			}
+			
+			#hospedagem_ {
+				border: 0px;
+				position: relative;
+				left: 0px;
+				font-family: Harlow Solid;
+				font-size: 20px;
+				color: black;
+				background: rgba(0, 0, 0, 0.0);
+			}
+			
+			#logo_hospedagem {
+				height: 21px;
+				width: 21px;
+			}
+			
+			#voos_ {
+				border: 0px;
+				position: relative;
+				left: -2px;
+				font-family: Harlow Solid;
+				font-size: 20px;
+				color: black;
+				background: rgba(0, 0, 0, 0.0);
+			}
+		
+			#logo_voos {
+				height: 21px;
+				width: 21px;
+			}
+			
+			#faleConosco_rodape {
+				border: 0px;
+				position: relative;
+				left: -4px;
+				top: 5px;
+				float: right;
+				font-family: Harlow Solid;
+				font-size: 20px;
+				color: white;
+				background: rgba(0, 0, 0, 0.0);
+			}
+			
+			#instagram_rodape {
+				clear: both;
+				position: relative;
+				top: -19px;
+				left: 765px;
+				border: 0px;
+				background: rgba(0, 0, 0, 0.0);
+			}
+			
+			#logo_insta {
+				height: 39px;
+			}
+			
+			#whatsapp_rodape {
+				position: relative;
+				top: -19px;
+				left: 654px;
+				border: 0px;
+				background: rgba(0, 0, 0, 0.0);
+			}
+			
+			#logo_whats {
+				height: 39px;
+			}
+			
+			#cruzeiro_conteudo {
+				background: black;
+				width: 280px;
+				height: 242px;
+				position: relative;
+				top: 60px;
+				left: 70px;
+			}
+			
+			#hospedagem_conteudo {
+				background: black;
+				width: 280px;
+				height: 242px;
+				position: relative;
+				top: -184px;
+				left: 480px;
+			}
+			
+			a {color:inherit;}
+			
+			a.classe1:link, a:visited, a:hover, a:active{
+				text-decoration: none;
+			}
+			
+			#conteudo {
+				overflow: auto;
+			}
+			
+			#hospedagem2_conteudo {
+				background: black;
+				width: 280px;
+				height: 242px;
+				position: relative;
+				top: -324px;
+				left: 480px;
+			}
+			
+			#cruzeiro2_conteudo {
+				background: black;
+				width: 280px;
+				height: 242px;
+				position: relative;
+				top: -80px;
+				left: 70px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div id="principal">
+			<div id="parteSuperior">
+			</div>
+			<div id="cabecalho">
+			
+			<a href="">
+			<img src="img/logo2.png" id="logo">
+			</a>	
+				<span id="nomePagina">
+					<h1>Gol Contra</h1>
+				</span>	
+				
+			
+				
+				
+			</div>
+			
+		    <div id="paginas_lateralEsquerda">
+				<span id="faleConosco">
+					<button id="faleConosco_">
+						<a href="fale_conosco.html" target="_blank"  class="classe1"> 
+						Fale conosco
+						<img src="img/fale_conosco.bmp" id="logo_fale"> </a>
+					</button>
+				</span>
+				
+				<br><br>
+				
+				<span id="dicas">
+					<button id="Dicas_">
+						<a href="../dicas/Dicas.html"  class="classe1">Dicas de viagem
+						<img src="img/alerta.bmp" id="logo_dicas"> </a>
+					</button>	
+				</span>
+				
+				<br><br>
+				
+				<span id="cruzeiros">
+					<button id="cruzeiros_">
+						<a href="../cruzeiros/index1.html"  class="classe1">Cruzeiros
+						<img src="img/cruzeiro.bmp" id="logo_cruzeiros"> </a>
+					</button>	
+				</span>
+				
+				<br><br>
+				
+				<span id="pacotes">
+					<button id="pacotes_">
+						<a href=""  class="classe1"> Pacotes
+						<img src="img/passaporte.bmp" id="logo_pacotes"> </a>
+					</button>	
+				</span>
+				
+				<br><br>
+				
+				<span id="hospedagem">
+					<button id="hospedagem_">
+						<a href="../hospedagens/index.html" class="classe1">Hospedagem
+						<img src="img/hotel.bmp" id="logo_hospedagem"> </a>
+					</button>	
+				</span>
+				
+				<br><br>
+				
+				<span id="voos">
+					<button id="voos_">
+						<a href="../voos/1versao.html"  class="classe1">Voos e Passagens
+						<img src="img/mapa.bmp" id="logo_voos"> </a>
+					</button>	
+				</span>	
+			</div>
+			
+			<div id="conteudo" >
+				<div id="cruzeiro_conteudo">
+					<img src="img/cruzeiro.jpg">
+					<a href="../cruzeiros/index4.html"  class="classe1"><span class="titulo">Cruzeiro do tétano</span> <br>
+					A partir de: R$239,99
+					</a>
+				</div>
+				
+				<div id="hospedagem_conteudo">
+					<img src="img/hotel.jpg">
+					<a href="../hospedagens/Produto1.html"  class="classe1"><span class="titulo">Hotel Transilvânia</span> <br>
+					A partir de: R$1.300,00
+					</a>
+				</div>
+				
+				<div id="cruzeiro2_conteudo">
+					<img src="img/cruzeiro_fantasma.jpg">
+					<a href="../cruzeiros/index6.html"  class="classe1"><span class="titulo">Cruzeiro Fantasma</span> <br>
+					A partir de: R$300,00
+					</a>
+				</div>
+				
+				<div id="hospedagem2_conteudo">
+					<img src="img/hotel2.jpg">
+					<a href="../hospedagens/Produto3.html"  class="classe1"><span class="titulo">Hotel Assombrado</span> <br>
+					A partir de: R$600,00
+					</a>
+				</div>
+			</div>
+			
+			<div id="rodape">
+				<img src="img/logo_preta.png" id="logo_rodape">
+				<span id="faleConosco">
+					<button id="faleConosco_rodape">
+						<a href="fale_conosco.html" target="_blank"  class="classe1"> 
+						Fale conosco
+						<img src="img/fale_conosco.bmp" id="logo_fale"> </a>
+					</button>
+				</span>
+				
+				<button id="instagram_rodape">
+						<a href="" target="_blank"> 
+							<img src="img/instagram.bmp" id="logo_insta"> </a>
+				</button>
+				
+				<button id="whatsapp_rodape">
+						<a href="" target="_blank"> 
+							<img src="img/whatsapp.bmp" id="logo_whats"> </a>
+				</button>
+			</div>
+		</div>
+	</body>
+</html>

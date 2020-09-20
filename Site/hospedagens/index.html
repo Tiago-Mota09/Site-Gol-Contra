@@ -1,0 +1,391 @@
+<html> <!-- index.html
+			na pasta Hospedagens -->
+	<head>
+		<title>Gol Contra - Hospedagens</title>
+		<style>
+			
+			body {
+				margin:0px;
+				background:url(img/cemiterio.jpg)no-repeat center fixed;
+				background-size:cover;
+			}
+			
+			div {border : 1px solid black;}
+			
+			#faixa {
+				background-image:url("img/perigotarja.png");
+				color : white ;
+				height :221px;
+			}
+			
+			#cabecalho {
+				background-color:black;
+				color : white;
+				height : 120px;
+			}
+			
+			#lateralEsquerda {
+				background-color: #F2AF23;
+				color : white;
+				height : 400px;
+				width : 510px;
+				float : left;
+				text-align:center;
+			}			
+			#conteudo{
+				background-color : #1E90FF;
+				color : white ;
+				height : 400px;
+				width : 510px;
+				float : left;
+				text-align:center;
+			}		
+			#rodape{
+				background-image:url("img/perigorodape.png");
+				color : white ;
+				height : 40px;
+				clear : both;
+			}			
+			#principal {
+				width : 1024px;
+				margin : 0px auto;
+			}			
+			.base {
+				position:center;
+				top:-90px;
+				left:500px;
+				width:55px;
+				height:100px;
+			}
+			#hoteis {
+				border: 2px solid navy;
+				position:relative;
+				top:0px;
+				left:-150px;
+				max-width:130px;
+				max-height:200px;
+				border-radius:20px;
+			}
+			#campoht {
+				position:relative;
+				top:-5px;
+				left:-150px;
+				width:100px;
+				height:55px
+			}
+			#apartamentos {
+				border: 2px solid navy;
+				position:relative;
+				top:-150px;
+				left:0px;
+				max-width:130px;
+				max-height:200px;
+				border-radius:20px;
+			}
+			#campoapt {
+				position:relative;
+				top:-155px;
+				left:0px;
+				width:100px;
+				height:55px
+			}
+			#resorts {
+				border: 2px solid navy;
+				position:relative;
+				top:-299px;
+				left:150px;
+				max-width:130px;
+				max-height:200px;
+				border-radius:20px;
+			}
+			#camporst {
+				position:relative;
+				top:-304px;
+				left:150px;
+				max-width:130px;
+				max-height:200px;
+			}
+			#titulo2 {
+				position:relative;
+				top:-298px;
+				left:0px;
+				max-width:130px;
+				max-height:200px;
+			}
+			#topht {
+				border: 2px solid navy;
+				position:relative;
+				top:-295px;
+				left:-150px;
+				max-width:130px;
+				max-height:200px;
+				border-radius:20px;
+			}
+			#campotopht {
+				position:relative;
+				top:-305px;
+				left:-150px;
+				max-width:130px;
+				max-height:200px;
+			}
+			#topapt {
+				border: 2px solid navy;
+				position:relative;
+				top:-467px;
+				left:0px;
+				max-width:130px;
+				max-height:200px;
+				border-radius:20px;
+			}
+			#campotopapt {
+				position:relative;
+				top:-478px;
+				left:0px;
+				max-width:130px;
+				max-height:200px;
+			}
+			#toprst {
+				border: 2px solid navy;
+				position:relative;
+				top:-639px;
+				left:150px;
+				max-width:130px;
+				max-height:200px;
+				border-radius:20px;
+			}
+			#campotoprst {
+				position:relative;
+				top:-645px;
+				left:150px;
+				max-width:130px;
+				max-height:200px;
+			}
+			#email {
+				position:relative;
+				left:690px;
+				max-width:35px;
+				max-height:35px;
+			}
+			#instagram {
+				position:relative;
+				max-width:35px;
+				max-height:35px;
+				left:700px;
+			}
+			#whatsapp {
+				position:relative;
+				max-width:35px;
+				max-height:35px;
+				left:710px;
+			}
+			#faleconosco {
+				position:relative;
+				max-width:35px;
+				top:-50px;
+				max-height:35px;
+				left:880px;
+			}
+			#sugesht {
+				border: 2px solid navy;
+				position:relative;
+				top:0px;
+				left:-120px;
+				max-width:130px;
+				max-height:200px;
+				border-radius:30px;
+			}
+			#txtht {
+				position:relative;
+				top:-4px;
+				left:-120px;
+				width:100px;
+				height:55px
+			}
+			#sugesrs {
+				border: 2px solid navy;
+				position:relative;
+				top:-170px;
+				left:120px;
+				max-width:130px;
+				max-height:200px;
+				border-radius:30px;
+			}
+			#txtrs {
+				position:relative;
+				top:-175px;
+				left:120px;
+				max-width:130px;
+				max-height:200px;
+			}
+			#sugeshotel {
+				border: 2px solid navy;
+				position:relative;
+				top:-160px;
+				left:-120px;
+				max-width:130px;
+				max-height:200px;
+				border-radius:30px;
+			}
+			#txthotel {
+				position:relative;
+				top:-166px;
+				left:-120;
+				max-width:130px;
+				max-height:200px;
+			}
+			#sugesapt {
+				border: 2px solid navy;
+				position:relative;
+				top:-331px;
+				left:120px;
+				max-width:130px;
+				max-height:200px;
+				border-radius:30px;
+			}
+			#txtapt {
+				position:relative;
+				top:-339px;
+				left:120px;
+				max-width:130px;
+				max-height:200px;
+			}
+			#menu {
+				position=center;
+				top="150px";
+				font-family:Harlow solid;
+			}
+			#formulario {
+				position:relative;
+				left:230px;
+				top:-20px;
+				height:120px;
+				border:0px;
+				width:550px;
+				background-color:black;
+				font:harlow;
+				text-align:center;
+			}
+			#logor {
+			position:relative;
+			top:-107px;
+			width:55px;
+			height:58px;
+			}
+		</style>
+	</head>
+		<body>
+			<div id="principal">
+				<div id="faixa">
+				
+					<img src="img/logo.png">
+					<img src="img/alerta.png" align="right">
+				
+			<span id="menu">
+				<table border="0" height="15" align="center">
+				
+					<tr bgcolor="#fff00" align="center">
+											
+							<td width="190"><font face="verdana"><a href="../home_page/home_page_lateral_esquerda.html"><b>HOME PAGE</b></a></font></td>
+							<td width="190"><font face="verdana"><a href="../cruzeiros/index1.html"><b>CRUZEIROS</b></a></font></td>
+							<td width="190"><font face="verdana"><a href=""><b>HOSPEDAGENS</b></a></font></td>
+							<td width="190"><font face="verdana"><a href=""><b>PACOTES</b></a></font></td>
+							<td width="190"><font face="verdana"><a href="../dicas/Dicas.html"><b>DICAS DE VIAGENS</b></a></font></td>
+						
+					</tr>					
+				</table>
+			</span>	
+			</div>
+			
+			<div id="cabecalho">
+			
+				<form style=color:white align="center" id="formulario">
+				
+					<h4 style=color:red>Encontre Hotéis, apartamentos e muito mais!</h4>
+				
+					    DESTINO:
+					<select name="local">
+						<option selected>Chernobil</option>
+						<option>Rio de Janeiro</option>
+						<option>São Paulo</option>
+						<option>Minas Gerais</option>
+						<option>Bahia</option>
+					
+					</select>	   
+					
+					    DATAS:
+					<input type="date"
+						   name="datas"
+						   value="2020-05-18"
+						   min="2020-05-19"
+						   max="2020-12-30"
+						   size="10">
+					
+					    QUARTOS:
+					<input type="radio"
+						   name="quantidade"
+						   checked
+						   value="1"> 1
+					<input type="radio"
+						   name="quantidade"
+						   value="2"> 2			
+					<br><br>
+					<input type="submit" value="Pesquisar">
+					<input type="reset" value="Limpar Campos">
+				
+				</form>
+				
+			</div>
+
+			<div id="lateralEsquerda">
+	
+				<h3 style=color:black><font face="calibri">* SUGESTÕES *</font></h3>
+				
+				<a href="Produto1.html"><img id="sugesht" src="img/kupari.png"></a>
+				<span id="txtht" style=color:black> <a href="Produto1.html"><font face="calibri"><h3>Hotél Transilvânia<br>Preço: R$1.300</h3></font></a></span>
+				
+				<a href="Produto2.html"><img id="sugesrs" src="img/kupari7.png"></a>
+				<span id="txtrs" style=color:black> <a href="Produto2.html"><font face="calibri"><h3>Resort aos pedaços<br>Preço: R$1.800</h3></font></a></span>
+				
+				<a href="Produto3.html"><img id="sugeshotel" src="img/resin.png"></a>
+				<span id="txthotel" style=color:black> <a href="Produto3.html"><font face="calibri"><h3>Apartamento Assombrado<br>Preço: R$600</h3></font></a></span>
+				
+				<a href="Produto4.html"><img id="sugesapt" src="img/abandoned-.png"></a>
+				<span id="txtapt" style=color:black> <a href="Produto4.html"><font face="calibri"><h3>Condomínio Velho<br>Preço: R$500</h3></font></a></span>
+
+			</div>
+			
+			<div class="base" id="conteudo">
+				<h3 style=color:black><font face="calibri">* TIPOS DE ACOMODAÇÕES *</font></h3>
+				
+				<a href="hoteis.html"><img id="hoteis" src="img/kupari.png"></a>
+				<span id="campoht" style=color:black> <a href="hoteis.html"><font face="calibri"><h3>Hotéis</h3></font></a></a>  </span>
+				
+				<a href="apartamentos.html"><img id="apartamentos" src="img/abandoned.png"></a>
+				<span id="campoapt" style=color:black> <a href="apartamentos.html"><font face="calibri"><h3>Apartamentos</h3></font></a></a>  </span>
+				
+				<a href="resorts.html"><img id="resorts" src="img/kupari7.png"></a>
+				<span id="camporst" style=color:black> <a href="resorts.html"><font face="calibri"><h3>Resorts</h3></font></a></a>  </span>
+				
+				<span id="titulo2" style=color:black><font face="calibri"><h3>* TOP 3 LUGARES *</h3> </span>
+				
+				<a href="Produto3.html"><img id="topht" src="img/resin.png"></a>
+				<span id="campotopht" style=color:black> <a href="Produto3.html"><font face="calibri"><h3>Apartamento<br> Assombrado</h3></font></a></a>  </span>
+				
+				<a href="Produto5.html"><img id="topapt" src="img/corridor.png"></a>
+				<span id="campotopapt" style=color:black> <a href="Produto5.html"><font face="calibri"><h3>Corredor<br> da Morte</h3></font></a></a>  </span>
+				
+				<a href="Produto4.html"><img id="toprst" src="img/abandoned-.png"></a>
+				<span id="campotoprst" style=color:black> <a href="Produto4.html"><font face="calibri"><h3>Condomínio velho</h3></font></a></a></span>
+			</div>
+
+			<div id="rodape">
+				<img id="email" src="img/email.png" hoteis />  				
+				<img id="instagram" src="img/instagram.png">
+				<img id="whatsapp" src="img/whatsapp.png">
+				<span id="faleconosco" style=color:white> <a href="../home_page/fale_conosco.html"><h3><b>Fale Conosco</b></h3></a> </span>
+				<img id="logor" src="img/logo_preta.png" />
+			</div>			
+		</div>
+	</body>
+</html>
+ 
